@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contracter-signup/contracter-signup-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Contracter_Sign-Up</title>
+</head>
+<body>
+  <!--sign-up--> 
+<form action="/contractor" method="post">
+ <div class="container">
+  <div class="sign-up">
+    <h1>Sign up</h1>
+    <div class="input-box">
+      <label class="user" for="user">UserName:</label>
+      <input type="text" placeholder="Enter your name" name="contractorName" required>
+      <i class="fa-solid fa-user"></i>
+     </div>
+   <div class="input-box">
+     <label class="Email" for="Email">Email:</label>
+     <input type="text" placeholder="Enter your Email" name="contractorEmail" required>
+     <i class="fa-solid fa-envelope"></i>
+    </div>
+    <div class="input-box">
+     <label  class="password" for="Password">Password:</label>
+     <input type="password" placeholder="Enter your password" name="contractorPassword" required>
+     <i class="fa-solid fa-lock"></i>
+    </div>
+    <button type="submit" class="btn">Sign up</button>
+    <div class="sign-up">
+     <p>Already have an Account?<a href="/contractorLogin">Sign in</a></p>
+    </div>
+  </div>
+</div>
+</form>
+</body>
+</html>

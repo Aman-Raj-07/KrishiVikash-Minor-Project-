@@ -1,0 +1,39 @@
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vender_login</title>
+  <link rel="stylesheet" href="vender-signin/vender-signin-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!--sign-in-->
+  <form action="/vender1" method="post">
+  <div class="container">
+    <div class="sign-in">
+      <h1>Log In</h1>
+     <div class="input-box">
+       <label class="Email" for="Email">Email:</label>
+       <input type="text" placeholder="Enter your Email" name="Mail"required>
+       <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="input-box">
+       <label  class="password" for="Password">Password:</label>
+       <input type="password" placeholder="Enter your password" name="password" required>
+       <i class="fa-solid fa-lock"></i>
+      </div>
+      <div class="remember-forgot">
+        <label>
+           <input type="checkbox">Rememeber me</label>
+           <a href="#" >Forgot Password?</a>
+        </label>
+      </div>
+      <button type="submit" class="btn">Sign in</button>
+      <div class="sign-in">
+       <p>Don't have Account?<a href="/consumersignup">Sign Up</a></p>
+      </div>
+    </div>
+ </div>
+</form>
+</body>
+</html>

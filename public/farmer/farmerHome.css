@@ -1,0 +1,98 @@
+.navbar
+{
+  height: 60px;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  /*justify-content: right;*/
+  font-size: 1.3rem;
+}
+.navbar1{
+  /*background-color: green;*/
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 20px;
+  gap: 40px;
+  
+}
+ .navbar .logo
+{
+  color: #fff;
+  display: flex;
+  letter-spacing: 0.1em;
+  margin-left: 50px;
+  justify-content: left;
+}
+.navbar a
+{
+  text-decoration: none;
+  color: #fff;
+}
+.img
+{
+  margin-top: 10px;
+  height: 1000px;
+  width: 100%;
+  border: 1px solid black;
+  background-image: url(crop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img .box
+{
+  margin :100px 0  0 600px;
+  height: 850px;
+  width: 700px;
+  border :1px solid transparent;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);;
+  }
+  .box .text
+  {
+
+    margin:0 20px 0 20px;
+
+  }
+  .container
+  {
+    margin-top: 15px;
+  }
+  .heading
+  {
+    height:40px;
+    width:1000%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    
+  }
+.first-row
+{
+  margin:35px;
+  height: 300px;
+  width :100%;
+  border: 1px solid #e4dbdb;
+  display: flex;
+  background-color: #e4dbdb;
+}
+.footer-container
+{
+  height: 200px;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+.p
+{
+  color: black;
+}
+.a
+{
+  display: flex;
+  align-items: center;
+}
+
